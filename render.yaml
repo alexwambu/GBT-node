@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: gbt-geth-node
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8545
+    autoDeploy: true
