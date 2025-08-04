@@ -1,0 +1,16 @@
+{
+  "config": {
+    "chainId": 999,
+    "homesteadBlock": 0,
+    "eip155Block": 0,
+    "eip158Block": 0
+  },
+  "alloc": {
+    "0xF7F965b65E735Fb1C22266BdcE7A23CF5026AF1E": {
+      "balance": "999000000000000000000000000000000000000000"
+    }
+  },
+  "coinbase": "0xF7F965b65E735Fb1C22266BdcE7A23CF5026AF1E",
+  "difficulty": "0x1",
+  "gasLimit": "0x2fefd8"
+}
